@@ -168,6 +168,7 @@ img {
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #2e2f42;
+            padding-bottom: 24px;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .nav-link:focus, 
@@ -362,4 +363,173 @@ img {
 
 
 /* ------------------ MAIN-BACKGROUND---------------*/
+.main-background {
+    background: #2e2f42;
+        padding: 72px 0;
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/office-mob1x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        background-position: center;
+        max-width: 320px;
+}
+
+@media screen and (min-resolution: 2x), (-webkit-min-device-piwel-ratio: 2x) {
+    .main-background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/office-mob2x.jpg);
+    }
+}
+
+.main-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        margin-bottom: 72px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 216px;
+}
+
+.text-button {
+    
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        
+        padding: 16px 32px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.style-btn {
+    border-radius: 4px;
+        min-width: 169px;
+        border: none;
+        background-color: #4d5ae5;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .main-background {
+            padding: 112px 0;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/office-tab1x.jpg);
+                max-width: 768px;
+    }
+
+@media screen and (min-resolution: 2x),
+(-webkit-min-device-piwel-ratio: 2x) {
+    .main-background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/office-tab2x.jpg);
+    }
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    max-width: 496px;
+}
+.style-btn:hover,
+.style-btn:focus {
+    background-color: #404bbf;
+}
+}
+
+
+@media screen and (min-width: 1158px) {
+    .main-background {
+            padding: 188px 0;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/office-des1x.jpg);
+                max-width: 1158px;
+        }
+    
+        @media screen and (min-resolution: 2x),
+        (-webkit-min-device-piwel-ratio: 2x) {
+            .main-background {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/office-des2x.jpg);
+            }
+        }
+}
+
+
+
+/* ---------------BENEFITS------------------ */
+
+
+.section {
+padding: 96px 0;
+}
+
+.section-benefits {
+display: flex;
+flex-direction: column;
+gap: 72px;
+    width: 288px;
+    margin: 0;
+}
+
+.box-bnf-icon {
+    
+    margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        border: 1px solid #8e8f99;
+        background-color: #f4f4fd;
+        display: none;
+}
+.section-benefits .name{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        margin-bottom: 8px;
+
+}
+.section-benefits .text {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .section-benefits {
+            flex-direction: row;
+            gap: 24px;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+    .list-bnf {
+        
+        flex-basis: calc((100% - 24) / 2);
+    }
+    .section-benefits .name{
+    text-align: left;
+}
+.section-benefits .text {
+    
+}
+}
+
 
