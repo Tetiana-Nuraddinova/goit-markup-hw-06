@@ -450,9 +450,16 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+.main-background.section {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
 
 .main-background {
-    padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/office-des.jpg);
     max-width: 1158px;
@@ -553,7 +560,7 @@ img {
 
 .section-benefits .name {
     font-weight: 500;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.2;
 }
 
