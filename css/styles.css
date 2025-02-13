@@ -462,7 +462,7 @@ img {
 .main-background {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/office-des.jpg);
-    max-width: 1158px;
+    max-width: 1440px;
 }
 
 @media screen and (min-resolution: 2x),
@@ -1209,6 +1209,11 @@ img {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+.label-policy {
+    display: flex;
+    align-items: center;
 }
 
 .policy-accent {
